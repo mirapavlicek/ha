@@ -33,7 +33,7 @@ blueprint:
       default: []
       selector:
         action: {}
-  source_url: https://github.com/mirapavlicek/ha/main/blueprints/sonoff_zigbee_button.yaml
+  source_url: https://github.com/mirapavlicek/ha/blob/main/blueprints/sonoff_zigbee_button.yaml
 variables:
   button_id: !input button_id
   press_action: !input press_action
