@@ -1,6 +1,7 @@
- blueprint:
+blueprint:
   name: Sonoff Zigbee Button
-  description: Based on apollo1220 sonoff_zigbee_button - update compatible with LAN Sonoff integration
+  description:
+    Based on apollo1220 sonoff_zigbee_button - update compatible with LAN Sonoff integration
     Setup actions for three functions of the SONOFF Zigbee button with
     Press, Double Press, and Hold.
   domain: automation
@@ -32,7 +33,7 @@
       default: []
       selector:
         action: {}
-  source_url: https://github.com/apollo1220/blueprints/blob/main/sonoff_zigbee_button.yaml
+  source_url: https://github.com/mirapavlicek/ha/main/blueprints/sonoff_zigbee_button.yaml
 variables:
   button_id: !input button_id
   press_action: !input press_action
